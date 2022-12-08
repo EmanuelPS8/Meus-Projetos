@@ -29,7 +29,7 @@ public class CidadeResource {
 		service.excluir(id);
 	}
 	@ApiOperation(value = "Altera uma cidade do banco de dados")
-	@PutMapping("/{c}")	
+	@PutMapping("/{id}")	
 	public Cidade alterar(@RequestBody Cidade c, @PathVariable int id) {
 		c.setId(id);
 		return service.alterar(c);
