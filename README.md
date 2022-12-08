@@ -1,2 +1,2 @@
 # Meus Projetos
- Repositorio com os meus projetos
+ Repositório com os meus projetos
