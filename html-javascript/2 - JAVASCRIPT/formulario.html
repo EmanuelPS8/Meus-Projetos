@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulario</title>
+</head>
+
+<body>
+
+    <form action="a" method="post" enctype="multipart/form-data">
+        <input type="file" name="arquivo">
+        <button>Upload</button>
+    </form>
+
+    <form action="a" method="get">
+        <input type="hidden" name="oculto" value="ABC">
+        <div>
+            <select name="uf" id="uf">
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Parana</option>
+            </select>
+        </div>
+        <div>
+            <label for="produto">Produto</label>
+            <input type="text" name="produto" id="produto">
+        </div>
+        <div>
+            <input type="radio" name="sexo" value="M">Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+        </div>
+        <div>
+            <input type="radio" name="turno" value="M">Matutino
+            <input type="radio" name="turno" value="V">Vespertino
+            <input type="radio" name="turno" value="N">Noturno
+        </div>
+        <div>
+            <input type="checkbox" id="natacao" name="esportes[]" value="N">
+            <label for="natacao">Natacao</label>
+            <input type="checkbox" id="corrida" name="esportes[]" value="C">
+            <label for="corrida">Corrida</label>
+            <input type="checkbox" id="futebol" name="esportes[]" value="F">
+            <label for="futebol"> Futebol</label>
+        </div>
+        <div>
+            <input type="date" name="nascimento">
+        </div>
+        <div>
+            <input type="month" name="mes">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <input type="number" min="1" max="100" name="idade">
+        </div>
+        <div>
+            <input type="range" step="10" name="pc">
+        </div>
+        <div>
+            <input type="color" name="cor">
+        </div>
+        <div>
+            <input type="text">
+        </div>
+        <button>Enviar</button>
+        <input type="reset" value="Limpar">
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "loja_exercicio",
+            "cwd": "loja_exercicio",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "loja_exercicio (profile mode)",
+            "cwd": "loja_exercicio",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "loja_exercicio (release mode)",
+            "cwd": "loja_exercicio",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
